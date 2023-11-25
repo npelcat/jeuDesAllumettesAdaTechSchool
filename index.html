@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>
+      <i class="fa-solid fa-fire"></i> Game of Lucifer
+      <i class="fa-solid fa-fire-extinguisher"></i>
+    </h2>
+    <p>Prenez un tas de 50 allumettes.</p>
+    <p>
+      Chacun à leur tour, les joueurs ôtent obligatoirement entre 1 et 6
+      allumettes.
+    </p>
+    <h5>Celui qui ôte la dernière allumette gagne.</h5>
+
+    <form action="">
+      <input
+        type="text"
+        id="chooseNbr"
+        placeholder="Retire entre 1 et 6 allumettes"
+      />
+      <br />
+      <button type="submit" id="search">
+        Envoyer <i class="fa-brands fa-free-code-camp"></i>
+      </button>
+      <p id="player"></p>
+    </form>
+
+    <p>Il reste <span id="nbrLucifer">50</span> allumette(s).</p>
+    <div id="errorMessage"></div>
+    <div id="win"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

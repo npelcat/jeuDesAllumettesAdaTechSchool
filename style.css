@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%) no-repeat;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #ff2525;
+}
+
+#chooseNbr {
+  margin: 10px;
+  padding: 10px 20px;
+  border: solid 1px #ff2525;
+  color: #ff2525;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#search {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: #ff2525;
+  font-weight: bold;
+}
+
+#search:hover {
+  cursor: pointer;
+  background-color: #ff2525;
+  color: black;
+}
